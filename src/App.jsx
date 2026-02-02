@@ -1,9 +1,11 @@
+import Card from './components/Card'
 import './App.css'
 
 const App = () => {
   return (
     <>
-      <h1>Hi this is my weather app</h1>
+      <h1>ANNIE'S WEATHER APP</h1>
+      <Card/>
     </>
 
   )

@@ -1,5 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 :root {
   --primary-color: #1B3B6F;
   --secondary-color: #065A82;
   --text-color: #9EB3C2;
 }
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                    url('./assets/bg.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Oswald", sans-serif;
+  color: var(--text-color);
+  text-align: center;
+  }
+
+  .card {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  width: 50vw;
+  height: 50vh;
+  position: relative;
+  }
+  
+  .search-card {
+   
+    width: 80%;
+    border-radius: 10px;
+    border-style: none;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;   
+    max-width: 600px;  
+    padding: 15px;   
+    font-size: 1.2rem;  
+  }
+
+  .getlocation {
+    padding: 0.5rem;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: white;
+    justify-content: center;
+    align-self: center;
+    font-family:'Times New Roman', Times, serif
+    }
